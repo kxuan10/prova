@@ -1,39 +1,33 @@
-body{
-  
-    color: rgb(0, 0, 0);
-    width: 100vw;
-}
+<style>
+  body{
+    background-color: black;
+    width: 100vh;
+    height: 100vh;
+    font-family: consive;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.geral{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-  
-}
-.nome1{
-    background-color: blue;
-    color: aliceblue;
-    width: 500px;
+  cabecalho{
     text-align: center;
+    width: 90vw;
+    height: 25vh;
+    background-color: white;
+    color: black;
+   width: 45vw;
+   height: 40vh;
+  }
 
-}
+  segundo{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 45vh;
+  }
 
-.titulo2{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-}
-.titulo3{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-}
-
-.rodape{
-    background-color: rgb(255, 0, 149);
-    width: 500px;
-    text-align: center;
-}
+  footer{
+    ba
+  }
